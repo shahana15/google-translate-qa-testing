@@ -1,0 +1,14 @@
+{
+  "name": "google-translate-smoke-suite",
+  "version": "1.0.0",
+  "description": "Optional/supplementary Playwright smoke-test suite for Google Translate, built alongside the manual QA deliverables for the WireApps QA Engineer assessment.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen https://translate.google.com"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
